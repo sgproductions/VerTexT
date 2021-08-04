@@ -1,0 +1,63 @@
+{
+    "author": "S.G. Productions",
+    "dependencies": {},
+    "keywords": [],
+    "name": "vertext",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "VerTexT",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "KEY_ACCEL": 1,
+            "KEY_ANIM": 2,
+            "KEY_COLOR_BG_HOUR_1": 3,
+            "KEY_COLOR_BG_HOUR_2": 4,
+            "KEY_COLOR_BG_MIN_1": 5,
+            "KEY_COLOR_BG_MIN_2": 6,
+            "KEY_COLOR_TX_HOUR_1": 7,
+            "KEY_COLOR_TX_HOUR_2": 8,
+            "KEY_COLOR_TX_MIN_1": 9,
+            "KEY_COLOR_TX_MIN_2": 10,
+            "KEY_FONT": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/VerText Logo.png",
+                    "name": "IMAGE_LOGO",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/Lato-Black.ttf",
+                    "name": "FONT_LATO_BLACK_30",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/LECO_2014-Regular.ttf",
+                    "name": "FONT_LECO_30",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/square.ttf",
+                    "name": "FONT_SQUARE_30",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "dac59725-83a5-48dd-b09d-aeb9fa5f84e9",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.20.0"
+}
